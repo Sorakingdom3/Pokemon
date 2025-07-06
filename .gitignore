@@ -31,3 +31,4 @@
 *.exe
 *.out
 *.app
+/Pokemon/.vs/Pokemon/v17/Browse.VC.db
