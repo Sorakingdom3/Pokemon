@@ -1,8 +1,8 @@
 # Prerequisites
 *.d
-*.vs
 *.db
-# Compiled Object files
+
+# Compiled Object Files
 *.slo
 *.lo
 *.o
@@ -12,16 +12,16 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled Dynamic Libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
+# Fortran Module Files
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compiled Static Libraries
 *.lai
 *.la
 *.a
@@ -31,4 +31,39 @@
 *.exe
 *.out
 *.app
-/Pokemon/.vs/Pokemon/v17/Browse.VC.db
+
+# Build Folders and Build Artifacts
+x64/
+*.log
+*.tlog
+*.ilk
+*.pdb
+*.idb
+
+# Visual Studio Files and Folders
+.vs/
+Pokemon/.vs/Pokemon/v17/Browse.VC.db
+
+# Windows System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Windows Installer Files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux System Files
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
